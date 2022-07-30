@@ -1,0 +1,28 @@
+.Tabs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.TabsList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.TabHead{
+    padding: 1.5rem;
+    border: 1px solid black;
+}
+
+.active{
+    background: darkgray;
+    color: #282c34
+}
+
+.TabContent{
+    padding: 20px;
+    /* background-color: red; */
+}
